@@ -111,6 +111,9 @@ article div {
     border-radius: 20px;
 }
 
+.Work a {
+}
+
 article h1 {
     font-size: 25px;
 }
@@ -210,6 +213,31 @@ footer {
         margin-bottom: 10px; /* Espaçamento entre ícones */
     }
 }
+
+table {
+    width: 60%; /* Ajuste a largura da tabela para 60% da largura da página */
+    margin: 20px auto; /* Centraliza a tabela na página */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
 
 @media (max-width: 576px) {
     header .logo {
